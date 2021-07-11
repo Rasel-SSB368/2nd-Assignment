@@ -1,0 +1,404 @@
+body{
+	border-right: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/*    overflow-x: hidden;*/
+
+a {
+	display: block;
+	margin-top: 12px;
+	text-decoration: none;
+	color: #FB2056;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+.header-section{
+	background: url(img/Kangchenjunga.India.png) no-repeat left bottom / cover;
+	overflow: hidden;
+	min-height: 500px;
+	/*        position: absolute;*/
+    /*    width: 100%;*/
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 0px;
+    padding-right: 0px;
+    /*    border: 3px solid yellow;*/
+}
+
+
+.wrapper{
+	width: 80%;
+	overflow: hidden;
+	margin: 0 auto;
+	/*        border: 1px solid red;*/
+}
+
+
+.header{
+	padding: 10px 0px;
+}
+
+
+.logo{
+	width: 20%;
+	/*float: left;*/
+	/*    margin-left: 20px;*/
+}
+
+
+.logo h1{
+	color: white;
+	font-size: 22px;
+	width: 100%;
+}
+
+
+.logo h2{
+	color: white;
+	font-size: 17px;
+}
+
+
+hr.menu-hr{
+	width: 10%;
+	height: 2px;
+	margin: 0 auto;
+	margin-top: 14px;
+	background: #FB2056;
+	border: none;
+}
+
+
+.menu{
+	float: right;
+	width: 60%;
+	display: inline-block;
+}
+
+
+.menu ul{
+	float: right;
+}
+
+
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin: 0px 12px;
+	padding: 5px;
+}
+
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	display: inline;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+
+.menu .list1{
+	border: 2px solid white;
+	padding: 5px 28px;
+	border-radius: 20px;
+}
+
+
+.menu-title{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 180px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.menu-title h2{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-family: 'Marck Script' cursive;
+	font-family: 'Montserrat' sans-serif;
+	font-family: 'Niconne' cursive;
+	font-family: 'Source Sans Pro' sans-serif;
+}
+
+hr{
+	width: 10%;
+	margin: 0 auto;
+	margin-top: 8px;
+	color: #FB2056;
+}
+
+.menu-title h1{
+	font-size: 42px;
+	color: white;
+	margin-top: 18px;
+	text-align: center;
+}
+
+.menu-title p{
+	color: white;
+	background-color: #FB2056;
+	border-radius: 16px;
+	padding: 10px;
+	font-size: 18px;
+	width: 22%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-weight: 300;
+	display: block;
+}
+.banner{
+	/*width: 100%;*/
+	overflow: hidden;
+	background-color: #F4F5F9;
+	min-height: 150px;
+}
+.les{
+	overflow: hidden;
+}
+.banner-content{
+	margin: 0 auto;
+	padding: 28px 0px;
+}
+.banner-img{
+	width: 20%;
+	float: left;
+}
+.banner-img img{
+	float: left;
+	margin-left: 50px;
+}
+.banner-title{
+	width: 80%;
+    float: right;
+    padding-top: 12px;
+    text-align: center;
+}
+.banner-title p{
+	float: left;
+	font-size: 25px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 30px;
+	color: gray;
+	font-family: 'Marck Script', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Niconne', cursive;
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.banner-title h4{
+	margin-top: 40px;
+	text-align: center;
+	color: gray;
+}
+
+.banner-title h4{
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+	padding: 5px -29px;
+	margin-right: 24px;
+	margin-left: -116px;
+}
+
+.coming_section{
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 50px 0 auto;
+	margin: 30px;
+}
+.coming_title{
+	margin-top: 41px;
+	line-height: 40px;
+}
+
+hr.coming-hr{
+	width: 5%;
+	height: 3px;
+	margin: 0 auto;
+	background: #FB2056;
+	border: none;
+}
+.coming-content{
+	text-align: center;
+	width: 100%;
+}
+.coming-img{
+	text-align: center;
+	margin-top: 30px;
+	margin: 0px 20px;
+	padding: 18px;
+}
+.coming-img img{
+	width: 40%;
+	margin: 0px 20px;
+	margin-top: 30px;
+}
+.coming-content2 h2{
+	color: black;
+	font-weight: bold;
+	margin: 0px 65px;
+	text-align: center;
+}
+.coming-content2 a{
+	text-decoration: none;
+	padding: 0px 65px;
+}
+.coming-content3 h2{
+	color: black;
+	font-weight: bold;
+	margin: 0px 65px;
+	text-align: center;
+}
+.coming-content3 a{
+	text-decoration: none;
+	padding: 0px 65px;
+}
+.coming-content2 p{
+	color: gray;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.coming-content3 p{
+	color: gray;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	margin: 0px 65px;
+}
+.coming-content2{
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin-top: 38PX;
+	padding-left: 50PX;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.coming-content3{
+	margin-top: 30px;
+	text-align: center;
+}
+.servie-sectin{
+	background: url(./img/service.jpg) no-repeat left bottom / cover;
+	overflow: hidden;
+	min-height: 500px;	
+}
+.service-title{
+	width: 50%;
+	float: right;
+	padding: 100px 0px;
+}
+hr.service-hr{
+	width: 10%;
+	height: 2px;
+	margin-top: 14px;
+	background: #FB2056;
+	border: none;
+	margin-left: 0px;
+}
+a.service-link{
+	color: #fff;
+}
+.service-title h1{
+	color: white;
+	line-height: 45px;
+	font-size: 45px;
+	font-weight: 700;
+}
+.service-title p{
+	color: white;
+	line-height: 28px;
+	padding: 30px 0px;
+	font-size: 20px;
+	font-weight: 400;
+}
+.service-title h3{
+	color: white;
+	line-height: 50px;
+}
+.destination-sectin{
+	overflow: hidden;
+	margin-top: 50px;
+	padding: 50px;
+}
+.destination-title{
+	width: 100%;
+	overflow: hidden;
+	margin: 40px 0px;
+}
+.destination-title .div1{
+	width: 31%;
+	float: left;
+}
+.div1 p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.div1 h3{
+	margin-top: 30px;
+	background-color: #FB2056;
+	border-radius: 18px;
+	font-size: 15px;
+	font-weight: 300;
+	text-align: center;
+	width: 40%;
+	padding: 12px 15px;
+	color: white;
+}
+.destination-title .div2{
+	width: 31%;
+	float: left;
+}
+hr.destination-hr{
+	width: 10%;
+	height: 3px;
+	margin-top: 14px;
+	margin-left: 0;
+	background: #FB2056;
+	border: none;
+
+}
+.destination-title .div3{
+	width: 31%;
+	float: right;
+}
+.footer-section{
+	background-color: black;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.footer-title{
+	width: 100%;
+	overflow: hidden;
+	padding: 33px;
+}
+.footer-title p{
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+.footer-title h2{
+	line-height: 40px;
+	color: white;
+	font-weight: 500;
+	font-size: 17px;
+	text-align: center;
+}
